@@ -101,13 +101,14 @@ header nav a.active{
 	padding-top: 10px;
 	padding-bottom: 30px;
 	z-index: -2;
-	background-color: #76B6FF;
+	background-color: lightgrey;
 }
 
 /*-- Contact --*/
 #contacto{
 	text-align: center;
 	padding-top: 10px;
+	background-color:lightgrey;
 
 }
 #contacto input{
