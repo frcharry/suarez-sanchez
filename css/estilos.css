@@ -1,0 +1,144 @@
+*{box-sizing:border-box;}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.home-wrapper{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/skyline.jpg')no-repeat center top;
+	background-size: cover;
+	color: white;
+	height: 680px;
+}
+header {	
+	/*background: #2C3E50;*/
+	position: fixed;
+	background-color: rgba(48, 48, 48, 0.7);
+	width: 100%;
+	
+}
+header img{
+	width: 100px
+
+}
+header nav{
+	float:right;
+	margin-top: 10px;
+}
+header nav a{
+	color:white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 10px;
+	padding: 10px 15px ;
+
+}
+header nav a.active{
+	background: #D1CEDD;
+	border-radius: 3px;
+}
+
+
+#home{
+	text-align: center;
+	padding: 200px 0 150px;
+}
+#home h1{
+	color: white;
+	font-size: 68px;
+	font-weight: normal;
+	line-height: 1.2;
+	margin-bottom: 40px;
+}
+#home .divider{
+	width: 80px;
+	border-top: 5px solid #fed136;
+	margin: 0 auto;
+}
+#home p{
+	font-size: 24px;
+	margin-top: px;
+}
+#home .social{
+	margin-top: 80px;
+}
+#home .social a{
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: black;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s;
+}
+#home .social a:hover{
+	background-color: #fed136;
+}
+/*Services*/
+.row{
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+#services .box{
+	display: inline-block;
+	text-align: center;
+	width: 18%;
+	padding: 10px 5px 10px 20px;
+
+}
+#services h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+}
+.bg-info{
+	height: 300px;	
+}
+
+/*Staff*/
+#staff {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+/*-- Contact --*/
+#contacto{
+	text-align: center;
+
+}
+#contacto input{
+	padding: 20px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+#contacto textarea{
+	margin: 20px 0;
+	padding: 20px;
+	width: 400px;
+}
+#contacto form{
+	display: inline-block;
+}
+#googleMap {
+	height:250px;
+	width:100%;
+	margin-bottom:2%;
+}
+input#name , input#email , textarea#comments {
+	font-family: 'Open Sans', sans-serif;
+	border-radius:0px;
+}
+footer{
+	background-color: rgba(48, 48, 48, 0.7);
+	text-align: center;
+	color: #fff;
+}
+
