@@ -107,11 +107,13 @@ header nav a.active{
 	padding-top: 10px;
 	padding-bottom: 30px;
 	z-index: -2;
+	background-color: #76B6FF;
 }
 
 /*-- Contact --*/
 #contacto{
 	text-align: center;
+	padding-top: 10px;
 
 }
 #contacto input{
@@ -126,8 +128,12 @@ header nav a.active{
 	width: 400px;
 }
 #contacto form{
-	display: inline-block;
+	display: inline;
 }
+ 
+ .page-header{
+ 	padding-top: 20px;
+ }
 #googleMap {
 	height:250px;
 	width:100%;
@@ -140,6 +146,7 @@ input#name , input#email , textarea#comments {
 footer{
 	background-color: rgba(48, 48, 48, 0.7);
 	text-align: center;
+	margin-top: 25px;
 	color: #fff;
 }
 
