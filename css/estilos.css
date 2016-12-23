@@ -5,7 +5,7 @@ body{
 	line-height: 1.6;
 }
 .home-wrapper{
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Skyline.jpg')no-repeat center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Skyline.jpeg')no-repeat center top;
 	background-size: cover;
 	color: white;
 	height: 680px;
