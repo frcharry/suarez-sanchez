@@ -120,7 +120,7 @@ header nav a.active{
 #contacto textarea{
 	margin: 20px 0;
 	padding: 20px;
-	width: 400px;
+	width: 100%;
 }
 #contacto form{
 	display: inline;
@@ -129,7 +129,7 @@ header nav a.active{
  .page-header{
  	padding-top: 20px;
  }
-#googleMap {
+.maps{
 	height:250px;
 	width:100%;
 	margin-bottom:2%;
