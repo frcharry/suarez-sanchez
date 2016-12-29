@@ -1,6 +1,6 @@
 *{box-sizing:border-box;}
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 16px;
 	line-height: 1.6;
 }
@@ -9,13 +9,15 @@ body{
 	background-size: cover;
 	color: white;
 	height: 680px;
+
 }
 header {	
-	/*background: #2C3E50;*/
-	/*position: fixed;*/
 	width: 100%;
 	z-index: 999;
 }
+/*.navbar{
+	background-color: rgba(48, 48, 48, 0.7);
+}*/
 #myNavbar{
 	background-color: rgba(48, 48, 48, 0.7);
 }
@@ -39,28 +41,31 @@ header nav a.active{
 }
 #home h1{
 	color: white;
-	font-size: 68px;
+	font-size: 98px;
 	font-weight: normal;
 	line-height: 1.2;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 #home .divider{
 	width: 80px;
 	border-top: 5px solid #fed136;
 	margin: 0 auto;
 }
-#home p{
+#home em{
 	font-size: 24px;
-	margin-top: px;
+	color: #D1CEDD;
+}
+#home .btn{
+	margin-top: 25px;
 }
 #home .social{
-	margin-top: 80px;
+	margin-top: 40px;
 }
 #home .social a{
 	color: white;
 	display: inline-block;
 	border-radius: 50%;
-	background-color: black;
+	background-color: #388CE8;
 	font-size: 24px;
 	font-weight: bold;
 	height: 50px;
@@ -72,7 +77,7 @@ header nav a.active{
 	transition:all .3s;
 }
 #home .social a:hover{
-	background-color: #fed136;
+	background-color: #1624E9;
 }
 /*Services*/
 .row{
@@ -108,22 +113,33 @@ header nav a.active{
 #contacto{
 	text-align: center;
 	padding-top: 10px;
-	background-color:lightgrey;
-
+	background-color: #15243D;
+	background-image: url('../images/map-image.png');
+	background-position: center;
+	background-repeat:no-repeat;
+}
+#contacto h2{
+	color: white;
+}
+#contacto p{
+	text-align: justify;
 }
 #contacto input{
 	padding: 20px;
-	width: 100%;
+	margin-bottom:5px;
+	width: auto;
+	max-width: 400px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
 }
 #contacto textarea{
 	margin: 20px 0;
 	padding: 20px;
-	width: 100%;
+	/*width: 400px;*/
+	border: 1px solid #ccc;
 }
 #contacto form{
-	display: inline;
+	/*display: block;*/
 }
  
  .page-header{
@@ -139,9 +155,15 @@ input#name , input#email , textarea#comments {
 	border-radius:0px;
 }
 footer{
-	background-color: rgba(48, 48, 48, 0.7);
-	text-align: center;
-	margin-top: 25px;
-	color: #fff;
+	background-color: rgb(48, 48, 48);
+	text-align: justify;
+	padding-top: 10px;
+	color: #8F9191;
+}
+footer .page-header{
+	margin-top: 0px;
+}
+#developedby{
+	text-align: right;
 }
 

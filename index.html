@@ -25,7 +25,7 @@
             <nav class="navbar navbar-inverse navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                      <a href="#home" class="navbar-brand" onclick="$('#home').animatescroll({scrollSpeed:1500}); ">SSA</a>  
+                      <a href="#home" class="navbar-brand" onclick="$('#home').animatescroll({scrollSpeed:1500}); "></a>  
                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -46,7 +46,16 @@
        </header>
 	   <section class="container" id="home"> 
 	      <h1>Suárez Sánchez</h1>
-		  <p><a class="btn btn-default btn-lg" href="#contacto" role="button" onclick="$('#contacto').animatescroll({scrollSpeed:1500}); ">Solicita tu consulta</a></p>
+          <em>Abogados Asociados</em>
+          <br>
+          <br>
+		  <p><a class="btn btn-default btn-lg" href="#contacto" role="button" onclick="$('#contacto').animatescroll({scrollSpeed:1500}); ">Realice una consulta</a></p>
+          <div class="social">
+                    <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
 	   </section>
 	</div>
 	<section id="services">
@@ -158,11 +167,6 @@
                      </p>
                     </div>
                 </div>
-                <div class="social">
-                    <a href="https://web.facebook.com/fundacion.visionsalud/?fref=ts" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/FUNVISIONSALUD" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UC6Ntq0sVxEIvMk4f0G-_7Zw" target="_blank"><i class="fa fa-youtube"></i></a>
-                </div>
             </div>
             <div id="staff2" class="col-lg-6 col-sm-12">
                 <div class="media">
@@ -181,11 +185,6 @@
                      </p>
                     </div>                
                 </div>
-                <div class="social">
-                    <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-youtube"></i></a>
-                </div>
             </div>
         </div>
     </section>
@@ -201,10 +200,10 @@
             </div>
             <div class="media-body">
                 <p>
-                    "Eficacia De Los Principios De Contratación En El Proceso De Unificación Del Derecho Internacional Privado: Comparación Entre La Unificación Jurídica Latinoamericana Y La Integración Europea." - 2011 
+                    "Eficacia de los principios de contratación en el proceso de unificación del derecho internacional privado: comparación entre la unificación jurídica latinoamericana y la integración europea." - REVIST@ e – Mercatoria Volumen 11, Número 1 (enero – junio 2012) 
                 </p>
-                <object width="100" height="60" data="images/mercatoria.jpg"></object>
-                <object width="100" height="60" data="images/externado.jpg"></object> 
+                <object width="80" height="30" data="images/mercatoria.jpg"></object>
+                <object width="80" height="30" data="images/externado.jpg"></object> 
             </div>
             
         </div>
@@ -218,39 +217,34 @@
         <div class="page-header">
             <h2>Contacto</h2>
         </div>
-        <article class="col-md-6 col-xs-12" id="mailbox">
+        <article>
             <form>
-                <div><input type="text" placeholder="Tu e-mail"></div>
-                <div><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
-                <button class="btn btn-danger btn-large">Enviar</button>
+                <div class="form-group"><input type="text" placeholder="Tu nombre completo"></div>
+                <div class="form-group"><input type="text" placeholder="Tu número de contacto"></div>
+                <div class="form-group"><input type="text" placeholder="Tu e-mail"></div>
+                <div class="form-group"><textarea rows="10" placeholder="Tu mensaje"></textarea></div>
+                <button class="btn btn-info btn-large">Enviar</button>
             </form>
         </article>
-        <article class="col-md-6 col-xs-12" id="address">
-            <div>
-                <strong>Dirección: </strong> Calle 90 # 12-28 Bogotá, Colombia</p>
-                <p><strong>Teléfono: </strong> +57 30175845829
-                <script type="text/javascript" src="https://secure.skypeassets.com/i/scom/js/skype-uri.js"></script>
-                <div id="SkypeButton_Call_cristian.suarez.s_1">
-                 <script type="text/javascript">
-                 Skype.ui({
-                 "name": "dropdown",
-                 "element": "SkypeButton_Call_cristian.suarez.s_1",
-                 "participants": ["cristian.suarez.s"],
-                 "imageSize": 24
-                 });
-                 </script>
-                </div>
-                </p>   
-                <p><strong>E-mail: </strong><a href="mailto:cristian.abogados@suarez-sanchez.com" alt="mailto:cristian.abogados@suarez-sanchez.com">cristian.abogados@suarez-sanchez.com</a></p>
-                <p><a href="https://www.suarez-sanchez.com">www.suarez-sanchez.com</a></p>
-            </div>
-            <div class="maps col-xs-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d994.1388588644201!2d-74.05094497079003!3d4.673050236434663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a8cf878c795%3A0x95e47b9162d0cc59!2sCl.+90+%2312-28%2C+Bogot%C3%A1%2C+Colombia!5e0!3m2!1sen!2s!4v1465346114034" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-       </article>
     </section>
-    <footer>
-        2016 <strong>Suárez Sánchez Abogados</strong>, Todos los Derechos Reservados
+    <!--footer-->
+    <footer class="col-xs-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"id="fcontactinfo">
+                    <h3 class="page-header">Oficina Bogotá, Colombia</h3>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Calle 90 # 12-28</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> +57 1  6581698</p>   
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:cristian.abogados@suarez-sanchez.com" alt="mailto:cristian.abogados@suarez-sanchez.com"> cristian.abogados@suarez-sanchez.com</a></p>
+                </div>
+                <div class="col-md-7"id="rights">
+                    <p><i class="fa fa-registered" aria-hidden="true"></i><strong> Suárez Sánchez</strong> 2016. Todos los Derechos Reservados</p>
+                </div>
+                <div class="col-md-5"id="developedby">
+                    <em>Designed & Developed by: </em>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
