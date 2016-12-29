@@ -34,14 +34,14 @@ header nav a.active{
 
 #home{
 	text-align: center;
-	padding: 200px 0 150px;
+	padding: 100px 0 150px;
 }
 #home h1{
 	color: white;
 	font-size: 98px;
 	font-weight: normal;
 	line-height: 1.2;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 #home .divider{
 	width: 80px;
@@ -53,10 +53,10 @@ header nav a.active{
 	color: #D1CEDD;
 }
 #home .btn{
-	margin-top: 25px;
+	margin-top: 75px;
 }
 #home .social{
-	margin-top: 40px;
+	margin-top: 60px;
 }
 #home .social a{
 	color: white;
@@ -65,8 +65,8 @@ header nav a.active{
 	background-color: #388CE8;
 	font-size: 24px;
 	font-weight: bold;
-	height: 50px;
-	width: 50px;
+	height: 43px;
+	width: 43px;
 	line-height: 50px;
 	margin-right: 10px;
 	-webkit-transition:all .3s;
