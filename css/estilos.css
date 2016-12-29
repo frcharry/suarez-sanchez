@@ -8,16 +8,13 @@ body{
 	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/Skyline.jpeg')no-repeat center top;
 	background-size: cover;
 	color: white;
-	height: 680px;
+	height: 700px;
 
 }
 header {	
 	width: 100%;
 	z-index: 999;
 }
-/*.navbar{
-	background-color: rgba(48, 48, 48, 0.7);
-}*/
 #myNavbar{
 	background-color: rgba(48, 48, 48, 0.7);
 }
@@ -135,21 +132,12 @@ header nav a.active{
 #contacto textarea{
 	margin: 20px 0;
 	padding: 20px;
-	/*width: 400px;*/
 	border: 1px solid #ccc;
 }
-#contacto form{
-	/*display: block;*/
-}
- 
+
  .page-header{
  	padding-top: 20px;
  }
-.maps{
-	height:250px;
-	width:100%;
-	margin-bottom:2%;
-}
 input#name , input#email , textarea#comments {
 	font-family: 'Open Sans', sans-serif;
 	border-radius:0px;
