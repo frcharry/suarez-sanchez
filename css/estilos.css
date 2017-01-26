@@ -124,7 +124,7 @@ header nav a.active{
 #contacto input{
 	padding: 20px;
 	margin-bottom:5px;
-	width: auto;
+	width: 85%;
 	max-width: 400px;
 	border: 1px solid #ccc;
 	border-radius: 3px;
@@ -132,6 +132,8 @@ header nav a.active{
 #contacto textarea{
 	margin: 20px 0;
 	padding: 20px;
+	width: 85%;
+	max-width: 400px;
 	border: 1px solid #ccc;
 }
 
